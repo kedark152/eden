@@ -16,7 +16,7 @@ export const ProgressBar = ({ setSteps, step }) => {
               {index + 1}
             </div>
             {index < 3 && ( //to limit progress line till 4th step
-              <div className="md:w-20 w-14 bg-gray-200 h-[2px] transition">
+              <div className="md:w-20 w-12 bg-gray-200 h-[2px] transition">
                 <div
                   className={`primary-bg-color h-[2px] ${
                     index + 1 < step
