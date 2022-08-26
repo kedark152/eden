@@ -10,7 +10,7 @@ export const Step2Card = ({ setSteps }) => {
           You can always create another workspace later
         </p>
       </div>
-      <form className="card-1 flex flex-col w-1/4 mt-8 gap-2">
+      <form className="card-1 flex flex-col w-3/4 md:w-2/4 lg:w-1/4 gap-2">
         <label
           htmlFor="workspace-name"
           className="block text-sm font-bold text-gray-600"
@@ -34,13 +34,13 @@ export const Step2Card = ({ setSteps }) => {
             type="text"
             placeholder="www.eden.com/"
             disabled
-            className="w-2/3 border-2 border-gray-200  rounded-l-md text-center border-r-none "
+            className="sm:w-2/3  w-4/5 border-2 border-gray-200  rounded-l-md text-center border-r-none "
           />
           <input
             type="text"
             id="display-name"
             placeholder="Example"
-            className="w-3/4 h-10 border-2 rounded-tr-md rounded-br-md border-gray-300 focus:border-purple-800 p-3 placeholder-gray-400"
+            className=" sm:w-3/4 w-1/2 h-10 border-2 rounded-tr-md rounded-br-md border-gray-300 focus:border-purple-800 p-3 placeholder-gray-400"
           />
         </div>
         <Button

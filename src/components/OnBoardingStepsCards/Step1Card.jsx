@@ -2,7 +2,7 @@ import { Button } from "../Button";
 export const Step1Card = ({ setSteps }) => {
   return (
     <>
-      <div className="page-headings mt-3">
+      <div className="page-headings mt-3 ">
         <h1 className="text-center font-bold text-2xl md:text-3xl mb-3">
           Welcome! First things first...
         </h1>
@@ -10,7 +10,7 @@ export const Step1Card = ({ setSteps }) => {
           You can always change them later
         </p>
       </div>
-      <form className="card-1 flex flex-col w-1/4 mt-8 gap-2">
+      <form className="card-1 flex flex-col w-3/2 mt-8 gap-2  md:w-1/4 lg:w-1/4">
         <label
           htmlFor="full-name"
           className="block text-sm font-bold text-gray-600"

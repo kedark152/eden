@@ -12,10 +12,10 @@ export const Step3Card = ({ setSteps }) => {
           We'll streamline your setup experience accordingly.
         </p>
       </div>
-      <div className="flex flex-col w-1/4 mt-8 gap-2">
-        <div className="flex gap-2">
+      <div className="flex flex-col w-full md:w-1/4 items-center mt-8 gap-2">
+        <div className="flex flex-col md:flex-row gap-2">
           <div
-            className={`for-myself-card hover:bg-gray-100 rounded-md cursor-pointer border-2 p-3 h-[160px] w-[165px] flex flex-col justify-between ${
+            className={`for-myself-card hover:bg-gray-100 rounded-md cursor-pointer border-2 p-3 h-[160px] w-[165px]  flex flex-col justify-between ${
               activeCard === 1 && "border-[#664de5]"
             }`}
             onClick={() => setActiveCard(1)}
@@ -52,7 +52,7 @@ export const Step3Card = ({ setSteps }) => {
           </div>
         </div>
         <Button
-          className="primary-solid p-3 my-1 w-full primary-bg-color hover:primary-bg-light-color text-white rounded-md"
+          className="primary-solid p-3 my-1 md:w-full w-1/2 primary-bg-color hover:primary-bg-light-color text-white rounded-md"
           buttonText="Create Workspace"
           setSteps={setSteps}
         />
