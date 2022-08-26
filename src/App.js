@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className="container-main flex flex-col items-center">
-        <div className="brand mt-10 flex items-center justify-center">
+        <div className="brand mt-10 pr-5 flex items-center justify-center">
           <img src={brandLogo} alt="brand-logo" />
           <span className="text-4xl font-bold ">Eden</span>
         </div>
