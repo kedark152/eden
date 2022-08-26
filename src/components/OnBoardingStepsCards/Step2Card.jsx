@@ -44,7 +44,7 @@ export const Step2Card = ({ setSteps }) => {
           />
         </div>
         <Button
-          className="primary-solid p-3 my-1 w-full"
+          className="primary-solid p-3 my-1 w-full primary-bg-color hover:primary-bg-light-color text-white rounded-md"
           buttonText="Create Workspace"
           setSteps={setSteps}
         />

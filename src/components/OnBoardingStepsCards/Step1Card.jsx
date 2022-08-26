@@ -36,7 +36,7 @@ export const Step1Card = ({ setSteps }) => {
           className="h-10 border-2 rounded-md border-gray-300 focus:border-purple-800 p-3 placeholder-gray-400"
         />
         <Button
-          className="primary-solid p-3 my-1 w-full"
+          className="primary-solid p-3 my-1 w-full primary-bg-color hover:primary-bg-light-color text-white rounded-md"
           buttonText="Create Workspace"
           setSteps={setSteps}
         />

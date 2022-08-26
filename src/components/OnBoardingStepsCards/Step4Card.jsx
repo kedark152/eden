@@ -19,7 +19,7 @@ export const Step4Card = ({ setSteps }) => {
       </div>
       <div className="flex flex-col w-1/4 mt-8 gap-2">
         <Button
-          className="primary-solid p-3 my-1 w-full"
+          className="primary-solid p-3 my-1 w-full primary-bg-color hover:primary-bg-light-color text-white rounded-md"
           buttonText="Launch Eden"
           setSteps={setSteps}
         />

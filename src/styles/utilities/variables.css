@@ -10,3 +10,6 @@
 .primary-bg-color {
   background-color: var(--primary-color);
 }
+.primary-bg-light-color {
+  background-color: var(--primary-light-color);
+}
