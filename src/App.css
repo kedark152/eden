@@ -1,0 +1,16 @@
+.App {
+  height: 100vh;
+  font-family: var(--inter-font);
+}
+.container-main {
+  height: 100%;
+}
+
+.for-myself-card i,
+.with-team-card i {
+  font-size: 2rem;
+}
+
+.onboarding-success-card i {
+  font-size: 3rem;
+}
