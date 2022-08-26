@@ -1,5 +1,3 @@
-import "../styles/components/buttons.css";
-
 export const Button = ({ buttonText, className, setSteps }) => {
   return (
     <button
