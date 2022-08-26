@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #664de5;
+  --primary-light-color: #7f6be9;
+  --inter-font: "Inter", sans-serif;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+.primary-bg-color {
+  background-color: var(--primary-color);
+}
