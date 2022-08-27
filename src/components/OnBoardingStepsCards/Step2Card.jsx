@@ -10,7 +10,7 @@ export const Step2Card = ({ setSteps }) => {
           You can always create another workspace later
         </p>
       </div>
-      <form className="card-1 flex flex-col w-3/4 md:w-2/4 lg:w-1/4 gap-2">
+      <form className="card-1 flex flex-col w-3/4 md:w-2/4 lg:w-1/4 gap-2 mt-4">
         <label
           htmlFor="workspace-name"
           className="block text-sm font-bold text-gray-600"
