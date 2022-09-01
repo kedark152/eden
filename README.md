@@ -1,4 +1,4 @@
-# Eden - An Employee onboarding Website
+# Eden - An Employee onboarding Website (Assignment)
 
 Tech Stack used
 1. ReactJs
